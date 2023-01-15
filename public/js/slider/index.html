@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jQuery Logo Slider Ticker</title>
+        <meta name="description" content="jQuery Logo Slider Ticker by webdesignandsuch.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="jquery.bxSlider.js"></script>
+		<script type="text/javascript">
+  		$(document).ready(function(){
+     		$('#slider').bxSlider({
+    		ticker: true,
+    		tickerSpeed: 5000,
+			tickerHover: true
+  		});
+  		});
+		</script>
+
+		<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- slider -->
+<div class="slider-container">
+
+	<ul id="slider">
+		<li><a href="#"><img src="logos/1.jpg"></a></li>
+        <li><a href="#"><img src="logos/2.jpg"></a></li>
+        <li><a href="#"><img src="logos/3.jpg"></a></li>
+        <li><a href="#"><img src="logos/4.jpg"></a></li>
+        <li><a href="#"><img src="logos/5.jpg"></a></li>
+        <li><a href="#"><img src="logos/6.jpg"></a></li>
+        <li><a href="#"><img src="logos/7.jpg"></a></li>
+        <li><a href="#"><img src="logos/8.jpg"></a></li>
+	</ul>
+
+</div><!-- /slider -->
+
+</body>
+</html>
